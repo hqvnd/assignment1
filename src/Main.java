@@ -90,7 +90,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        System.out.println(findMin(new int[]{1, 2, 3})); // Example
+        genPerm("IOX", ""); // IOX XOI OIX IXO XIO OXI
 
     }
 }
