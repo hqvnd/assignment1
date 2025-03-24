@@ -57,7 +57,7 @@ public class Main {
     // Problem 7: Generate all permutations of a string
     // Complexity: O(n!)
     public static void genPerm(String str, String prefix) {
-        if (str.length() == 0) {
+        if (str.isEmpty()) {
             System.out.print(prefix + " ");
         } else {
             for (int i = 0; i < str.length(); i++) {
